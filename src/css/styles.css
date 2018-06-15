@@ -1,0 +1,50 @@
+body {
+  color: #fff; }
+
+#newsletter {
+  background-color: #563d7c; }
+  #newsletter .fa-envelope-open-o {
+    margin-right: 15px; }
+
+#home-section {
+  background: url("../img/home.jpeg") no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 700px; }
+  #home-section .home-inner {
+    padding-top: 150px; }
+  #home-section .dark-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    min-height: 700px; }
+
+#info1 {
+  background-color: #fba100; }
+
+#info2 {
+  background-color: #6bbaa7; }
+
+#info3 {
+  background-color: #6c648b; }
+
+#tutorials {
+  background-color: #984b43; }
+  #tutorials .card {
+    background-color: #984b43;
+    border-color: #984b43; }
+  #tutorials .fa-desktop {
+    font-size: 70px;
+    color: #333; }
+  #tutorials .btn {
+    margin-top: 20px; }
+
+#faq .btn-link {
+  text-decoration: none;
+  color: #fff; }
+
+#faq .accordion .card-header :after {
+  font-family: "FontAwesome";
+  content: "\f107";
+  float: right; }
+
+#faq .accordion .card-header .collapased :after {
+  content: "\f106"; }
